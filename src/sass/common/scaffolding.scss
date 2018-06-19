@@ -76,3 +76,10 @@ textarea:focus:-ms-input-placeholder                { color: transparent; }
 .hidden {
   display: none;
 }
+
+.headline {
+  font: 700 2.4rem/2.4rem $font-main;
+  text-align: center;
+  text-transform: uppercase;
+  color: $black;
+}

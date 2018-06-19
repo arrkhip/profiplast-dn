@@ -1,0 +1,48 @@
+.about {
+
+	&__wrap {
+
+	}
+
+	&__inner {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin-top: 45px;
+	}
+
+	&__banner {
+		margin-right: 50px;
+	}
+
+	&__info {
+		max-width: 400px;
+
+		p {
+			font: 400 1.4rem/1.8rem $font-main;
+			font-size: 14px;
+			color: $black;
+
+			&:not(:first-child) {
+				margin-top: 15px;
+			}
+		}
+	}
+
+	@media screen and (max-width: 768px) {
+
+		&__inner {
+			flex-direction: column;
+			margin-top: 45px;
+		}
+
+		&__banner {
+			margin-right: 0;
+			margin-bottom: 50px;
+		}
+
+		&__info {
+			max-width: 500px;
+		}
+	}
+}
