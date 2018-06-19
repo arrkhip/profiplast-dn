@@ -1,2 +1,54 @@
 .promo {
+	background: url(../img/promo-bg.png) no-repeat center bottom/cover;
+	height: 506px;
+
+	&__wrap {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		height: 100%;
+	}
+
+	&__info {
+
+	}
+
+	&__title {
+		margin-bottom: 35px;
+		font: 700 2.4rem/2.4rem $font-main;
+		color: $black;
+		
+		span {
+			display: block;
+			margin-top: 8px;
+			font: 700 3rem/3rem $font-main;
+			text-transform: uppercase;
+		}
+	}
+
+	&__btn {
+
+	}
+
+	&__banner {
+
+	}
+
+	@media screen and (max-width: 768px) {
+		height: auto;
+
+		&__wrap {
+			flex-direction: column;
+		}
+
+		&__info {
+			order: 1;
+		}
+
+		&__banner {
+			max-width: 80%;
+			margin-top: 50px;
+			margin-bottom: 50px;
+		}
+	}
 }
