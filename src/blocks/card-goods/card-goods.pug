@@ -1,0 +1,7 @@
+mixin card-goods(src, title, price)
+	+b.card-goods
+		+e.banner
+			img(src= src)
+		+e.title= title
+		+e.price= price
+		+e.BUTTON.btn Заказать

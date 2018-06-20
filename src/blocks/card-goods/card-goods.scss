@@ -1,0 +1,22 @@
+.card-goods {
+	width: 100%;
+	max-width: 260px;
+	text-align: center;
+
+	&__banner {
+		margin-bottom: 20px;
+	}
+
+	&__title {
+		margin-bottom: 10px;
+		font: 400 1.6rem/1.6rem $font-main;
+		color: $black;
+		text-transform: uppercase;
+	}
+
+	&__price {
+		margin-bottom: 10px;
+		font: 400 1.6rem/1.6rem $font-main;
+		color: $black;
+	}
+}
