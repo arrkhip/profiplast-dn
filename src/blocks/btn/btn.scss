@@ -1,0 +1,19 @@
+.btn {
+	display: inline-flex;
+	align-items: center;
+	height: 35px;
+	padding: 0 30px;
+	font: 400 1.4rem/1.4rem $font-main;
+	color: #f9f9fa;
+	text-transform: uppercase;
+	border: none;
+	border-radius: 5px;
+	background-color: $red;
+	outline: none;
+	transition: all .2s ease;
+
+	&:hover {
+		cursor: pointer;
+		background-color: darken($red, 5%);
+	}
+}
