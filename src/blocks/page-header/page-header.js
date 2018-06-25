@@ -1,6 +1,3 @@
-//page-header add fixed top position
-window.onscroll = function() {scrollFunc()};
-
 //page-header switch
 var mobSwitch = document.querySelector('.page-header__mobile-switch');
 var list = document.querySelector('.page-header__nav');
