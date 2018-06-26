@@ -1,9 +1,11 @@
 .contacts {
+	padding-top: 50px;
 
 	&__wrap {
 		display: flex;
 		align-items: flex-start;
 		justify-content: space-between;
+		padding-top: 30px;
 	}
 
 	&__info {
@@ -15,8 +17,18 @@
 		display: flex;
 		align-items: center;
 
-		&-icon {
+		&:not(:last-child) {
+			margin-bottom: 10px;
+		}
 
+		&-icon {
+			margin-right: 10px;
+
+			svg {
+				width: 20px;
+				height: 20px;
+				fill: $red;
+			}
 		}
 
 		&-text {
