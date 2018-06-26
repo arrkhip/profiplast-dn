@@ -1,0 +1,7 @@
+mixin promo-base(bgUrl, title, text)
+	+b.SECTION.promo-base(style='background-image: url(' + bgUrl + ')') 
+		+e.wrap
+			+e.info
+				+e.title= title 
+				+e.P.descr= text
+				button.btn Связаться с нами

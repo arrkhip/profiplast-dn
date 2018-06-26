@@ -1,2 +1,32 @@
 .contacts {
+
+	&__wrap {
+		display: flex;
+		align-items: flex-start;
+		justify-content: space-between;
+	}
+
+	&__info {
+		width: 50%;
+
+	}
+
+	&__item {
+		display: flex;
+		align-items: center;
+
+		&-icon {
+
+		}
+
+		&-text {
+
+		}
+	}
+
+	&__map {
+		width: 50%;
+
+	}
+
 }

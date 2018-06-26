@@ -1,0 +1,25 @@
+.promo-base {
+	height: 400px;
+	background: lightblue no-repeat center/cover;
+
+	&__wrap {
+		display: flex;
+		height: 100%;
+	}
+
+	&__info {
+		max-width: 500px;
+		margin: auto;
+		text-align: center;
+	}
+
+	&__title {
+		margin-bottom: 20px;
+		font: 700 3rem/3rem $font-main;
+	}
+
+	&__descr {
+		margin-bottom: 20px;
+		font: 400 1.6rem/1.6rem $font-main;
+	}
+}
