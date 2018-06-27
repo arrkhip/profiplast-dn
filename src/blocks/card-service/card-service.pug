@@ -1,0 +1,7 @@
+mixin card-service(bgUrl, title, descr)
+	+b.card-service
+		+e.banner(style='background-image: url(' + bgUrl + ')') 
+		+e.info
+			+e.title= title
+			+e.descr!= descr
+			+e.btn.btn Заказать
