@@ -1,12 +1,23 @@
 .services-page {
 
 	&__list {
-		padding: 50px 0;
+		padding: 70px 0;
 	}
 
 	.card-service:not(:last-child) {
-		padding-bottom: 35px;
-		margin-bottom: 35px;
-		border-bottom: 1px solid black;
+		margin-bottom: 60px;
+		padding-bottom: 60px;
+		border-bottom: 1px solid #f0f0f0;
+	}
+
+	@media screen and (max-width: 992px) {
+		&__list {
+			padding: 50px 0;
+		}
+
+		.card-service:not(:last-child) {
+			margin-bottom: 30px;
+			padding-bottom: 30px;
+		}
 	}
 }
