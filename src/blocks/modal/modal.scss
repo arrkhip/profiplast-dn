@@ -1,0 +1,50 @@
+.modal {
+	position: fixed;
+	top: 0;
+	left: 0;
+	display: none;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.75);
+
+	&--active {
+		display: block;
+	}
+
+	&__inner {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		width: 100%;
+		max-width: 500px;
+		min-width: 300px;
+		padding: 35px;
+		background-color: #fff;
+		transform: translate(-50%, -50%);
+		text-align: center;
+	}
+
+	&__close {
+		position: absolute;
+		top: 10px;
+		right: 10px;
+
+	}
+
+	&__descr {
+		max-width: 280px;
+		margin-bottom: 25px;
+		font: 400 1.5rem/2.2rem $font-main;
+	}
+
+	&__input {
+		margin-bottom: 25px;
+		padding-bottom: 5px;
+		border: none;
+		border-bottom: 1px solid #ccc;
+		text-align: center;
+	}
+}
