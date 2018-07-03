@@ -46,9 +46,24 @@
 		}
 
 		&__banner {
-			max-width: 80%;
+			max-width: 300px;
 			margin-top: 50px;
 			margin-bottom: 50px;
+		}
+
+		&__title {
+			font-size: 1.8em;
+			text-align: center;
+			
+			span {
+				font-size: 2rem;
+			}
+		}
+
+		.btn {
+			display: flex;
+			margin-left: auto;
+			margin-right: auto;
 		}
 	}
 }

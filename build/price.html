@@ -15,9 +15,7 @@
   <body>
     <div class="price-page">
       <header class="page-header">
-        <div class="page-header__wrap">
-          <div class="page-header__logo"><img src="img/logo.png"/>
-          </div>
+        <div class="page-header__wrap"><a class="page-header__logo" href="index.html"><img src="img/logo.png"/></a>
           <div class="page-header__mobile-switch"> 
             <svg>
               <use xlink:href="img/sprite.svg#menu"></use>
@@ -187,7 +185,7 @@
         </div>
       </footer>
     </div>
-    <form class="modal">
+    <form class="modal" id="modal">
       <div class="modal__inner">
         <div class="modal__close"> 
           <svg>
@@ -195,7 +193,7 @@
           </svg>
         </div>
         <p class="modal__descr">Оставьте свой номер телефона и в ближайшее время наш менеджер с Вами свяжется. 
-        </p><input class="modal__input" type="tel" placeholder="Номер телефона" required="required"/>
+        </p><input class="modal__input" type="tel" name="tel" placeholder="Номер телефона" required="required"/>
         <button class="modal__btn btn">Отправить
         </button>
       </div>

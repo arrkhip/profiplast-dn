@@ -1,9 +1,9 @@
 mixin modal()
-	+b.FORM.modal
+	+b.FORM#modal.modal
 		+e.inner
 			+e.close 
 				svg
 					use(xlink:href="img/sprite.svg#close")
 			+e.P.descr Оставьте свой номер телефона и в ближайшее время наш менеджер с Вами свяжется. 
-			+e.INPUT.input(type="tel" placeholder="Номер телефона" required)
+			+e.INPUT.input(type="tel" name="tel" placeholder="Номер телефона" required)
 			+e.BUTTON.btn.btn Отправить

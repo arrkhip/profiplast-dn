@@ -59,6 +59,11 @@ input[type="text"]:focus::-moz-placeholder          { color: transparent; }
 input[type="text"]:focus:-moz-placeholder           { color: transparent; }
 input[type="text"]:focus:-ms-input-placeholder      { color: transparent; }
 
+input[type="tel"]:focus::-webkit-input-placeholder { color: transparent; }
+input[type="tel"]:focus::-moz-placeholder          { color: transparent; }
+input[type="tel"]:focus:-moz-placeholder           { color: transparent; }
+input[type="tel"]:focus:-ms-input-placeholder      { color: transparent; }
+
 textarea:focus::-webkit-input-placeholder           { color: transparent; }
 textarea:focus::-moz-placeholder                    { color: transparent; }
 textarea:focus:-moz-placeholder                     { color: transparent; }
