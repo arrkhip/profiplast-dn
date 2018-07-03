@@ -19,7 +19,13 @@
           <picture class="page-header__logo">
             <source srcset="img/logo.png" media="(min-width: 992px)"/><img src="img/logo-sm.png"/>
           </picture>
-          <div class="page-header__mobile-switch">X
+          <div class="page-header__mobile-switch"> 
+            <svg>
+              <use xlink:href="img/sprite.svg#menu"></use>
+            </svg>
+            <svg>
+              <use xlink:href="img/sprite.svg#close"></use>
+            </svg>
           </div>
           <nav class="page-header__nav">
             <ul class="page-header__nav-list">
@@ -197,7 +203,10 @@
     </div>
     <form class="modal">
       <div class="modal__inner">
-        <div class="modal__close">X
+        <div class="modal__close"> 
+          <svg>
+            <use xlink:href="img/sprite.svg#close"></use>
+          </svg>
         </div>
         <p class="modal__descr">Оставьте свой номер телефона и в ближайшее время наш менеджер с Вами свяжется. 
         </p><input class="modal__input" type="tel" placeholder="Номер телефона" required="required"/>

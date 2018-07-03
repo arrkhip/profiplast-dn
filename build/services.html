@@ -19,7 +19,13 @@
           <picture class="page-header__logo">
             <source srcset="img/logo.png" media="(min-width: 992px)"/><img src="img/logo-sm.png"/>
           </picture>
-          <div class="page-header__mobile-switch">X
+          <div class="page-header__mobile-switch"> 
+            <svg>
+              <use xlink:href="img/sprite.svg#menu"></use>
+            </svg>
+            <svg>
+              <use xlink:href="img/sprite.svg#close"></use>
+            </svg>
           </div>
           <nav class="page-header__nav">
             <ul class="page-header__nav-list">
@@ -40,7 +46,7 @@
           <div class="promo-base__info">
             <div class="promo-base__title">Услуги
             </div>
-            <p class="promo-base__descr">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam pariatur blanditiis minima eos amet in placeat quisquam, commodi, eius minus.
+            <p class="promo-base__descr">Благодаря богатому профессиональному опыту наший сотрудников наши клиенты получают лучшее качество. 
             </p>
             <button class="btn">Связаться с нами</button>
           </div>
@@ -49,36 +55,36 @@
       <div class="services-page__list">
         <div class="services-page__wrap">
           <div class="card-service">
-            <div class="card-service__banner" style="background-image: url(http://www.oknakomforta.ru/img3/tjoplyj-montazh/montazh_k2.jpg)"> 
+            <div class="card-service__banner" style="background-image: url(img/card-service__banner.jpg)"> 
             </div>
             <div class="card-service__info">
-              <div class="card-service__title">Lorem ipsum dolor.
+              <div class="card-service__title">Замер
               </div>
-              <div class="card-service__descr">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum magni vero ex libero fugiat aliquid modi est exercitationem consectetur unde expedita corrupti odit, commodi, adipisci incidunt repellendus quae, mollitia laborum!
+              <div class="card-service__descr">Замер оконного проёма под пластиковое окно является обязательным и очень ответственным мероприятием, так как точность этих замеров определяет правильный монтаж и успешную эксплуатацию окна. Вы должны понимать, что даже в типовом многоквартирном доме необходимо производить замеры оконного проёма под пластиковое окно, ведь они могут отличаться, а также могут быть проёмы неправильной формы или с неравномерной толщиной стен. Наши специалисты грамотно сделают замер, учитывая все особенности и изъяны вашего оконного проёма, что позволит избежать неприятностей с пластиковым окном в будущем.
               </div>
               <div class="card-service__btn btn">Заказать
               </div>
             </div>
           </div>
           <div class="card-service">
-            <div class="card-service__banner" style="background-image: url(http://www.oknakomforta.ru/img3/tjoplyj-montazh/montazh_k2.jpg)"> 
+            <div class="card-service__banner" style="background-image: url(img/card-service__banner1.jpg)"> 
             </div>
             <div class="card-service__info">
-              <div class="card-service__title">Lorem ipsum dolor.
+              <div class="card-service__title">Установка окон
               </div>
-              <div class="card-service__descr">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum magni vero ex libero fugiat aliquid modi est exercitationem consectetur unde expedita corrupti odit, commodi, adipisci incidunt repellendus quae, mollitia laborum!
+              <div class="card-service__descr">Металлопластиковые окна по своим физико-механическим свойствам отличаются от традиционных деревянных окон. В частности, они герметичнее, чувствительнее к летне-зимним колебаниям температур. Профиль ПВХ имеет большую гибкость, чем алюминиевый профиль или деревянный брус того же сечения. А потому установка металлопластиковых окон должна быть особенно качественной. Чтобы они работали долго и безотказно, необходимо, чтобы монтаж был выполнен точно и добросовестно, с соблюдением всех технических требований.
               </div>
               <div class="card-service__btn btn">Заказать
               </div>
             </div>
           </div>
           <div class="card-service">
-            <div class="card-service__banner" style="background-image: url(http://www.oknakomforta.ru/img3/tjoplyj-montazh/montazh_k2.jpg)"> 
+            <div class="card-service__banner" style="background-image: url(img/card-service__banner2.jpg)"> 
             </div>
             <div class="card-service__info">
-              <div class="card-service__title">Lorem ipsum dolor.
+              <div class="card-service__title">Ремонт окон
               </div>
-              <div class="card-service__descr">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum magni vero ex libero fugiat aliquid modi est exercitationem consectetur unde expedita corrupti odit, commodi, adipisci incidunt repellendus quae, mollitia laborum!
+              <div class="card-service__descr">Срок службы металлопластиковых окон напрямую зависит от правильного ухода за ними. Поэтому очень важно вовремя осуществлять ремонт Вашего окна. Наша компания всегда готова выполнить ремонт пластиковых окон, заменить поврежденные элементы или установить новые. Мы предоставляем только качественные услуги в самые короткие сроки.
               </div>
               <div class="card-service__btn btn">Заказать
               </div>
@@ -130,7 +136,10 @@
     </div>
     <form class="modal">
       <div class="modal__inner">
-        <div class="modal__close">X
+        <div class="modal__close"> 
+          <svg>
+            <use xlink:href="img/sprite.svg#close"></use>
+          </svg>
         </div>
         <p class="modal__descr">Оставьте свой номер телефона и в ближайшее время наш менеджер с Вами свяжется. 
         </p><input class="modal__input" type="tel" placeholder="Номер телефона" required="required"/>

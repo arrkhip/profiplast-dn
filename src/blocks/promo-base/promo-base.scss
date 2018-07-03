@@ -29,10 +29,13 @@
 	&__title {
 		margin-bottom: 20px;
 		font: 700 3rem/3rem $font-main;
+		text-transform: uppercase;
+		letter-spacing: 2px;
+		color: $black;
 	}
 
 	&__descr {
 		margin-bottom: 20px;
-		font: 400 1.6rem/1.6rem $font-main;
+		font: 500 1.5rem/2rem $font-main;
 	}
 }
