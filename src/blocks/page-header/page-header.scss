@@ -19,7 +19,7 @@
 	}
 
 	&__logo {
-
+		min-width: 160px;
 	}
 
 	&__mobile-switch {
@@ -28,6 +28,11 @@
 
 		&:hover {
 			cursor: pointer;
+		}
+		svg {
+			width: 25px;
+			height: 25px;
+			fill: #fff;
 		}
 	}
 
@@ -97,12 +102,13 @@
 				}
 
 				a {
-					opacity: 0.7;
+					opacity: 0.9;
 					color: #f9f9fa;
 					font-family: Roboto;
-					font-size: 14px;
-					font-weight: 400;
+					font-size: 16px;
+					font-weight: 500;
 					line-height: 26px;
+					letter-spacing: 1px;
 
 					&:hover {
 						color: #fff;

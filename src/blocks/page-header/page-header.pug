@@ -1,15 +1,11 @@
 mixin page-header()
 	+b.HEADER.page-header
 		+e.wrap
-			+e.PICTURE.logo
-				source(srcset="img/logo.png", media="(min-width: 992px)")
-				img(src="img/logo-sm.png")
-			//- img(src="img/logo.png")
+			+e.logo
+				img(src="img/logo.png")
 			+e.mobile-switch 
 				svg
 					use(xlink:href="img/sprite.svg#menu")
-				svg
-					use(xlink:href="img/sprite.svg#close")
 			+e.NAV.nav
 				+e.UL.nav-list
 					+e.LI.nav-item

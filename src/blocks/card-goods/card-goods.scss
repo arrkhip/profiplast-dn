@@ -9,14 +9,14 @@
 
 	&__title {
 		margin-bottom: 10px;
-		font: 400 1.6rem/1.6rem $font-main;
+		font: 600 1.6rem/1.6rem $font-main;
 		color: $black;
 		text-transform: uppercase;
 	}
 
 	&__price {
-		margin-bottom: 10px;
-		font: 400 1.6rem/1.6rem $font-main;
+		margin-bottom: 20px;
+		font: 400 1.4rem/1.4rem $font-main;
 		color: $black;
 	}
 }
