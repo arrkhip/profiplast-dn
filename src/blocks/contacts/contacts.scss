@@ -9,15 +9,14 @@
 	}
 
 	&__info {
-		width: 50%;
+		width: 30%;
 	}
 
 	&__item {
 		display: flex;
-		align-items: center;
 
 		&:not(:last-child) {
-			margin-bottom: 10px;
+			margin-bottom: 15px;
 		}
 
 		&-icon {
@@ -30,14 +29,55 @@
 			}
 		}
 
-		&-text {
+		&-list {
+			display: flex;
+			flex-direction: column;
 
+			a {
+				font: 400 1.4rem/2rem $font-main;
+				color: $black;
+
+				&:hover {
+					color: $red;
+				}
+			}
+		}
+
+		&-text {
+			font: 400 1.4rem/2rem $font-main;
+			color: $black;
 		}
 	}
 
 	&__map {
-		width: 50%;
+		width: 70%;
+		height: 400px;
+	}
 
+	@media screen and (max-width: 768px) {
+
+		&__wrap {
+			flex-direction: column;
+		}
+
+		&__info,
+		&__map {
+			width: 100%;
+		}
+
+		&__map {
+			margin-bottom: 50px;
+			height: 250px;
+		}
+
+		&__info {
+			order: 1;
+		}
+
+		&__item {
+			width: 250px;
+			margin: auto;
+		}
 	}
 
 }
